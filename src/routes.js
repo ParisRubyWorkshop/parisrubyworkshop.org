@@ -5,7 +5,7 @@ import Guidelines from './containers/Guidelines.jsx';
 import CodeOfConduct from './containers/CodeOfConduct.jsx';
 import Contributing from './containers/Contributing.jsx';
 
-export default (
+return (
   <Router history={browserHistory}>
     <Route path="/" component={Landing} />
     <Route path="/code_of_conduct" component={CodeOfConduct} />
